@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="/images/ChatGPT Image May 19, 2025 at 01_28_54 PM.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Sachin </span>Rajpoot<br></h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="/images/WhatsApp Image 2025-05-19 at 13.18.11.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <h3>I am a passionate and hardworking web developer with a strong foundation in front-end technologies like HTML, CSS, and JavaScript. Through projects such as a hospital management system and an eLearning platform, I have developed user-friendly, responsive interfaces that enhance functionality and user experience. I enjoy solving real-world problems through code and continuously seek to improve my skills by taking on new challenges. With a creative mindset and a solid understanding of web development principles, I’m eager to contribute to meaningful projects and grow as a full-stack developer.</h3>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span><h3>Technical Skills</h3></span>
+                            <li>Java</li>
+                            <li>C++</li>
+                            <li>DSA</li>
+                            <li>OOPs</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </li>
+                        <li><span><h3>Soft Skills</h3></span>
+                            <li>Teamwork and collaboration</li>
+                            <li>Problem-solving</li>
+                            <li>Critical thinking</li>
+                            <li>Leadership</li>
+                            <li>Interpersonal skills</li>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>May 2024 - June 2024</span><br>In-House Summer Training at Chandigarh University</li>
+                        <!--
+                        <li><span>2019 - 2021</span><br>Team lead at StarApp LLC.</li>
+                        <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                        <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                        -->
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 - Present</span><br>Bachelor of Engineering - Computer Science and Engineering from Chandigarh University</li>
+                        <li><span>2021 - 2022</span><br>Intermediate From RRK School Chandausi UP</li>
+                        <li><span>2014</span><br>Matriculation from OPGM Sr Sec School Chandausi UP</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------------------------------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-certificate"></i>
+                <h2>Python for Everybody</h2>
+                <p>Learned core Python programming with hands-on coding and real-world examples.</p>
+                <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/35FXYZFR2GVK">See here</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-certificate"></i>
+                <h2>Databases and SQL for Data Science with Python</h2>
+                <p>Gained hands-on experience in querying databases and integrating SQL with Python.</p>
+                <a href="https://www.coursera.org/account/accomplishments/verify/TDVZJ9RW8RX6">See here</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-certificate"></i>
+                <h2>Level up : Advanced Python</h2>
+                <p>Awarded for successfully completing the Level Up: Advanced Python course, demonstrating expertise in advanced Python programming concepts and best practices.</p>
+                <a href="https://www.linkedin.com/learning/certificates/28936b2dcf284fd564d502c820afa087c5a06101b135666aea0aea534804827e">See here</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-certificate"></i>
+                <h2>Introduction to Databases</h2>
+                <p>Awarded for completing the Introduction to Databases course, showcasing proficiency in relational database concepts, SQL queries, and data modeling fundamentals.</p>
+                <a href="https://www.coursera.org/account/accomplishments/verify/CAT2JN82BKTQ">See here</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-certificate"></i>
+                <h2>Foundation of Cloud IoT Edge ML</h2>
+                <p>recognizing foundational knowledge in Cloud IoT, Edge Computing, and Machine Learning integration.</p>
+                <a href="https://internalapp.nptel.ac.in/NOC/NOC25/SEM1/Ecertificates/106/noc25-cs75/Course/NPTEL25CS75S24310084104467801.pdf">See here</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-certificate"></i>
+                <h2>Internet of Things: Design Concepts and Use Cases</h2>
+                <p>Internet of Things: Design Concepts and Use Cases explores fundamental principles and practical applications of IoT technology across various industries.</p>
+                <a href="#"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I design clean, responsive, and user-friendly websites that look great on all devices and deliver a smooth, engaging experience tailored to your brand and goals.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>I create intuitive and visually appealing app designs focused on user experience, ensuring smooth navigation, responsive layouts, and a modern look that aligns with your brand and functionality needs.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>I specialize in UI/UX design that combines visual appeal with seamless user experience, creating interfaces that are intuitive, engaging, and tailored to meet both user needs and business goals.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/images/work-1.png">
+                <div class="layer">
+                    <h3>eLearner Platform for Students and Faculty</h3>
+                    <p>eLearner is a user-friendly application that enables students and faculty to manage courses, assignments, communication, and academic progress efficiently.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work-2.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>This app connects you to the popular and branded stores around the world.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work-3.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>A music app that offers seamless streaming, personalized playlists, and easy discovery of songs and artists for an immersive listening experience.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> rajputsachin8856@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 7409558856</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/rajputsachin8856/"><i class="fab fa-linkedin"></i></a>
+                    <a href="github.com/rajputsachin8856"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    
+                </div>
+                <a href="/trilogy resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Sachin Rajpoot. All rights reserved.</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwg0yuesTZ0P_HeTVffh3xY_Gm7SdswYf-SZ-vMgHyviGAyXPqQjfcrFdPmmXzfi3FQ0A/exec' 
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwg0yuesTZ0P_HeTVffh3xY_Gm7SdswYf-SZ-vMgHyviGAyXPqQjfcrFdPmmXzfi3FQ0A/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
